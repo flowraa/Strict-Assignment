@@ -1,0 +1,262 @@
+* { margin: 0;
+   padding: 0;
+
+ }
+ul { list-style: none;
+}
+a,a:hover,a:focus { text-decoration: none;
+}
+i { cursor:pointer;
+}
+
+/**********************Common css ends**********************/
+
+/**********************Header part start**********************/
+
+header nav .navbar-nav .nav-item .nav-link{
+    padding: 0 20px;
+    line-height: 100px;
+    font-family: 'Lato', sans-serif;
+    font-weight:600;
+    font-size: 16px;
+    color: #2d3950;
+    text-transform:uppercase;
+    transition: all linear 0.4s;
+  
+}
+header nav .navbar-nav .nav-item .nav-link:hover{  color: #15a4fa;
+}
+
+/**********************Header part ends**********************/
+
+/**********************Banner part Start**********************/
+#banner-part { position: relative;
+
+ }
+#banner-part .first-slide { background: url(../images/banner.jpg) no-repeat center;
+							background-size: cover;
+						
+}
+#banner-part h1 { font-family:'Lato', sans-serif; 
+				  font-size:120px;
+				  font-weight:600;
+				  color:#ffffff;
+				  padding-top: 213px;
+
+}
+#banner-part p {  font-family:'Lato', sans-serif; 
+				  font-size:20px;
+				  font-weight:400;
+				  color:#ffffff;
+				  padding-top:70px;
+				  padding-bottom: 30px;
+				
+}
+#banner-part .button { font-family:'Lato', sans-serif; 
+				 	   font-size:18px;
+				       font-weight:400;
+				       text-transform: capitalize;
+				       color:#ffffff;
+				       margin-top: 70px;
+				       border: 1px solid #15a4fa;
+				       line-height: 69px;
+				       padding-left:25px;
+				       padding-right:25px;
+				       padding-top:15px;
+				       padding-bottom:15px;
+				       border-radius: 2px;
+				       margin-top: 60px;
+				       width: 100px;
+				       transition: all linear 0.4s;
+}
+#banner-part .button:hover { color:red;
+}
+#banner-part i { color:red;
+ 				  padding-top:168px;
+ 				  padding-bottom: 85px;
+ 				  font-size: 35px;
+ 				  color:#ffffff;
+}
+#banner-part i:hover {color:red;}
+
+/**********************Banner part Start**********************/
+
+/**********************Simple & pure design part Start**********************/
+#content {background:#f6f9f9;}
+#content h2 { font-family: 'Lato', sans-serif; 
+			  font-size:40px;
+			  font-weight:400;
+			  color:#2d3950;
+			  padding-top:73px;
+			  background: #f6f9f9;
+ }
+ #content p { font-family: 'Lato', sans-serif; 
+			  font-size:20px;
+			  font-weight:400;
+ 			  padding-top: 30px;
+ 			  padding-bottom: 104px;
+ 			  color:#999999;
+}
+
+/**********************Simple & pure design part ends**********************/
+
+/**********************Service part start**********************/		
+#Service {background: #ffffff;}
+#Service h3 { padding-top:195px;
+			  font-family:'Lato', sans-serif; 
+ 			  font-size:22px;
+ 			  font-weight:400;
+ 			  padding-left: 40px;
+ 			  color:#2d3950;
+}
+ #Service .text p { font-family:'Lato', sans-serif; 
+ 					font-size:15px;
+ 					font-weight:400;
+ 					color:#999999;
+ 					text-align: center;
+ 					padding-right:20px;
+ 					padding-top: 22px;
+ 					padding-bottom:61px;
+ 					line-height: 25px;
+}
+ #Service .text h6 {  font-family:'Lato', sans-serif; 
+ 					  font-size:15px;
+ 					  font-weight:400;
+ 					  color:#999999;
+ 					  text-align: center;
+ 					  padding-top: 22px;
+ 					  padding-right:20px;
+ 					  line-height: 25px;
+}
+
+/**********************Service part ends**********************/
+
+/**********************Showcase part start**********************/
+ #Showcase{ background: #f6f9f9;
+ 			padding-bottom:115px;
+ }
+#Showcase { font-family: 'Lato', sans-serif; 
+			font-size:41px;
+			font-weight:400;
+			padding-top:80px;
+			color: #2d3950;
+}
+#Showcase p { font-family: 'Lato', sans-serif; 
+			  font-size:15px;
+			  font-weight:400;
+			  padding-top:20px;
+			  padding-bottom:75px;
+			  color:#909090;
+}
+#Showcase .item { margin-bottom: 30px; 
+}
+/**********************Showcase part ends**********************/
+
+/**********************Contact part start**********************/
+#Contact { background:#2c374b;
+		  
+}
+ #Contact h2 { font-family: 'Lato', sans-serif; 
+			 font-size:41px;
+			 font-weight:400;
+			 color:#ffffff;
+			 padding-top:65px;
+}
+#Contact p {  font-family: 'Lato', sans-serif; 
+			 font-size:15px;
+			 font-weight:400;
+			 color:#939495;
+			 line-height: 25px;
+
+}
+#Contact input { margin-top:40px;
+				margin-bottom:;
+				padding-left:18px;
+				width:552px;
+				height:60px;
+				border-top:1px solid #999999;
+				border-bottom:1px solid #999999;
+				border-left:1px solid #999999;
+				border-right:1px solid #999999;
+				border-radius:3px;
+				background-color:#2c374b;
+}
+#Contact textarea { margin-top:19px;
+				   width:552px;
+				   height:160px;
+				   padding-left:18px;
+				   background-color:#2c374b;
+				   border-top:1px solid #999999;
+				   border-bottom:1px solid #999999;
+				   border-left:1px solid #999999;
+				   border-right:1px solid #999999;
+				   border-radius:3px;
+}
+#Contact img { padding-top:30px;
+			  padding-left:260px;
+			  float:left;
+
+
+}
+#Contact h5 { font-family:'Lato', sans-serif;
+			 font-size:15px;
+			 font-weight:600;
+			 color: #ffffff;
+			 padding-right:70px; 
+			 padding-top:27px;
+
+}
+#Contact .submit	{ padding-right: 100px;
+			      margin-left:40px;
+			      margin-bottom: 40px;
+			 	  background:#2c374b;
+			 	  width: 150px;
+			 	  padding: 10px;
+			 	  border-top:1px solid #15a4fa;
+				  border-bottom:1px solid #15a4fa;
+				  border-left:1px solid #15a4fa;
+				  border-right:1px solid #15a4fa;
+				  border-radius:3px;
+}
+#Contact .submit a { font-family:'Lato', sans-serif;
+			        font-size:18px;
+			        font-weight:600;
+			        color:#ffffff;
+}
+#Contact.submit a:hover { color:red;
+ }
+
+
+/**********************fotter part ends**********************/
+
+/**********************Footer part start**********************/
+#footer {
+
+}
+#footer p {  font-family:'Lato', sans-serif;
+			 font-size:15px;
+			 font-weight:600;
+			 color:#999999;
+			 padding-top:55px;
+			 padding-bottom:25px;
+
+			
+ }
+ #footer .social-media ul li a { float:right;
+ 								 padding: 10px 15px;
+ 								 background: #15a4fa;
+ 								 margin-left: 10px;
+ 								 margin-top: 20px;
+ 								 border-radius: 3px;
+ 								 font-size:15px;
+ 								 color: #ffffff;
+ 								
+
+
+
+  }
+  #footer .social-media ul li a :hover { color: #2d384c;
+
+   }
+
+   /**********************Footer part ends**********************/
